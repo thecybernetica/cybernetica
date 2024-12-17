@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/Header/Header";
 
 import NewsSection from "./News/News";
+import Atletica from "./Atletica/Atletica";
 
 import "./Home.css";
 
@@ -21,6 +22,8 @@ const Home = () => {
       </div>
 
       <NewsSection />
+
+      <Atletica />
     </div>
   );
 };

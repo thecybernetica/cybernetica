@@ -1,0 +1,32 @@
+.atletica {
+  min-height: 100vh;
+  background-color: brown;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.image-card {
+  height: auto;
+  width: 100%;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.see-more {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.see-more:hover {
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
