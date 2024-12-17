@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 
-import NewsSection from "./sections/News";
+import NewsSection from "./News/News";
 
 import "./Home.css";
 
