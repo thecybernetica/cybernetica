@@ -23,7 +23,14 @@ const Atletica = () => {
           />
           <h3 className="card-title">Vice-Presidente</h3>
         </div>
-        <div className="card" />
+        <div className="card">
+          <img
+            src="https://placehold.co/200"
+            alt="Diretor Geral"
+            className="card-image"
+          />
+          <h3 className="card-title">Diretor Geral</h3>
+        </div>
         <div className="card">
           <img
             src="https://placehold.co/200"
@@ -40,7 +47,7 @@ const Atletica = () => {
             alt="Diretor de Produtos"
             className="card-image"
           />
-          <h3 className="card-title">D. Produtos</h3>
+          <h3 className="card-title">Diretor de Produtos</h3>
         </div>
         <div className="card">
           <img
@@ -48,7 +55,7 @@ const Atletica = () => {
             alt="Diretor de e-sports"
             className="card-image"
           />
-          <h3 className="card-title">D. E-Sports</h3>
+          <h3 className="card-title">Diretor de E-Sports</h3>
         </div>
         <div className="card">
           <img
@@ -56,7 +63,7 @@ const Atletica = () => {
             alt="Diretor de E-Sports"
             className="card-image"
           />
-          <h3 className="card-title">D. E-Sports</h3>
+          <h3 className="card-title">Diretor de E-Sports</h3>
         </div>
         <div className="card">
           <img
@@ -64,7 +71,7 @@ const Atletica = () => {
             alt="Diretor de Eventos"
             className="card-image"
           />
-          <h3 className="card-title">D. Eventos</h3>
+          <h3 className="card-title">Diretor de Eventos</h3>
         </div>
       </div>
       <div className="image-row">
@@ -74,7 +81,7 @@ const Atletica = () => {
             alt="Diretor de Marketing"
             className="card-image"
           />
-          <h3 className="card-title">D. Marketing</h3>
+          <h3 className="card-title">Diretor de Marketing</h3>
         </div>
         <div className="card">
           <img
@@ -82,7 +89,7 @@ const Atletica = () => {
             alt="Diretor de Esportes"
             className="card-image"
           />
-          <h3 className="card-title">D. Esportes</h3>
+          <h3 className="card-title">Diretor de Esportes</h3>
         </div>
         <div className="card">
           {/* <img
