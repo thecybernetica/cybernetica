@@ -11,13 +11,32 @@
 .image-row {
   display: flex;
   margin-bottom: 20px;
+  position: relative;
 }
 
-.image-card {
+.card {
   height: auto;
   width: 100%;
   flex: 1;
   margin-right: 10px;
+  position: relative;
+}
+
+.card-image {
+  height: auto;
+  width: 100%;
+}
+
+.card-title {
+  width: 100%;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -00%);
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
 }
 
 .see-more {
