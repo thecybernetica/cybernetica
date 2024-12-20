@@ -1,0 +1,31 @@
+.footer {
+  height: 50vh;
+  display: flex;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.divider {
+  border-right: 1px solid #000;
+}
+
+.juridico-button {
+  background-color: purple;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.juridico-button:hover {
+  background-color: #9900ff;
+}

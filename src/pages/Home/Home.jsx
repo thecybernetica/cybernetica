@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 
 import NewsSection from "./News/News";
 import Atletica from "./Atletica/Atletica";
@@ -24,6 +25,8 @@ const Home = () => {
       <NewsSection />
 
       <Atletica />
+
+      <Footer />
     </div>
   );
 };
