@@ -20,9 +20,15 @@
 
 .nav li {
     margin-right: 20px;
+    padding: 6px;
+    border-radius: 8px;
 }
 
 .nav a {
     color: white;
     text-decoration: none;
+}
+
+.highlighted {
+    background-color: purple;
 }
