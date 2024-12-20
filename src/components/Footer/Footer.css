@@ -3,29 +3,30 @@
   display: flex;
 }
 
-.footer-section {
+
+.contact-section {
+
   flex: 1;
   padding: 20px;
+
+  display: flex;
+  flex-direction: row;
+
   text-align: center;
   align-items: center;
   justify-content: center;
-  display: flex;
-  flex-direction: column;
+
 }
 
-.divider {
-  border-right: 1px solid #000;
-}
+.contact-info {
+  min-height: 70%;
+  background-color: #f4f4f4;
+  padding: 0px 20px 20px 20px;
+  border-radius: 10px;
+  flex: 1;
 
-.juridico-button {
-  background-color: purple;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin-top: 20px;
-  cursor: pointer;
-}
+  text-align: start;
+  align-items: start;
+  justify-content: start;
 
-.juridico-button:hover {
-  background-color: #9900ff;
 }

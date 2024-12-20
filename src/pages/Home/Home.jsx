@@ -17,7 +17,7 @@ const Home = () => {
           <h1 className="title">CYBERNETICA</h1>
           <p className="description">
             Associação Atlética Acadêmica De Ciência da Computação, Análise e
-            Desenvolvimento de Sistemas e Ciência de Dados do CEUB
+            Desenvolvimento de Sistemas, Ciência de Dados e Cybersegurança do CEUB
           </p>
         </div>
       </div>
