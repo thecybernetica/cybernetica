@@ -1,7 +1,7 @@
 {
   "name": "cybenertica",
   "version": "0.1.0",
-  "homepage": "thecybernetica.github.io/cybenertica",
+  "homepage": "https://thecybernetica.github.io/cybernetica/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
