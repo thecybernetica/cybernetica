@@ -109,7 +109,7 @@ const Atletica = () => {
         </div>
       </div>
 
-      <h3 className="see-more">Ver mais</h3>
+      <a href="/atletica" className="see-more">Ver mais</a>
     </div>
   );
 };
