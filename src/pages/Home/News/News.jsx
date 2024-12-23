@@ -5,7 +5,7 @@ import "./News.css";
 const NewsSection = () => {
     return (
         <div className="news">
-            <h1 className="title">Novidades</h1>
+            <h1 className="title">Blog da Cyber</h1>
 
             <div className="news-list">
                 <img src="https://placehold.co/200" alt="News 1" className="news-item" />
