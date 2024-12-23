@@ -3,7 +3,6 @@ import "./Footer.css";
 import "../../styles/AppStyle.css";
 
 const Footer = () => {
-  // TODO: Add links
   return (
     <footer className="footer">
       <div className="contact-section">

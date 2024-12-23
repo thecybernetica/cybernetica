@@ -259,7 +259,8 @@ const Forms = () => {
             />
           </div>
 
-          <button type="submit">Submit</button>
+          <button type="submit">Enviar</button>
+          <p>Você receberá uma cópia por e-mail.</p>
         </form>
       </div>
       <Footer />

@@ -1,5 +1,6 @@
 .footer {
   display: flex;
+  color: black;
 }
 
 .contact-section {
@@ -21,6 +22,7 @@
   text-align: start;
   align-items: start;
   justify-content: start;
+  color: black;
 }
 
 @media (max-width: 600px) {

@@ -1,7 +1,5 @@
 .forms {
   background-color: black;
-  color: white;
-
   padding-bottom: 20px;
   display: flex;
   flex-direction: column;
@@ -28,6 +26,13 @@ form div {
 label {
   font-size: 1.2em;
   margin-bottom: 10px;
+  color: white;
+}
+
+p,
+h1,
+h3 {
+  color: white;
 }
 
 input,
@@ -46,34 +51,34 @@ textarea {
   opacity: 0.5;
 }
 
-input[type="radio"] {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  background-color: #a662dd;
-  border: 2px solid #a662dd;
-  border-radius: 15px;
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  position: relative;
-  outline: none;
-  margin-right: 10px;
+@media (max-width: 1024px) {
+  form {
+    margin: 20px;
+    max-width: 70vw;
+  }
+
+  input,
+  textarea {
+    font-size: 1.2em;
+  }
 }
 
-input[type="radio"]:checked {
-  background-color: white;
-  border-color: #a662dd;
-}
+@media (max-width: 600px) {
+  form {
+    margin: 10px;
+    max-width: 90vw;
+  }
 
-input[type="radio"]:checked::before {
-  content: "";
-  display: block;
-  width: 20px;
-  height: 20px;
-  background-color: #a662dd;
-  border-radius: 50%;
-  position: absolute;
-  top: 5px;
-  left: 5px;
+  .form-row {
+    flex-direction: column;
+  }
+
+  .space-divider {
+    margin-bottom: 10px;
+  }
+
+  input,
+  textarea {
+    font-size: 1em;
+  }
 }
