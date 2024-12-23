@@ -16,6 +16,7 @@ form {
   display: flex;
   flex-direction: column;
   margin: 50px;
+  max-width: 50vw;
 }
 
 form div {
@@ -25,7 +26,7 @@ form div {
 }
 
 label {
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-bottom: 10px;
 }
 
