@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/thecybernetica.github.io/cybenertica/static/css/main.da76849f.css",
-    "main.js": "/thecybernetica.github.io/cybenertica/static/js/main.00e71e66.js",
-    "static/js/453.b3eeb358.chunk.js": "/thecybernetica.github.io/cybenertica/static/js/453.b3eeb358.chunk.js",
-    "static/media/cybernetica_logo.png": "/thecybernetica.github.io/cybenertica/static/media/cybernetica_logo.7c82a699eb49cf780d80.png",
-    "index.html": "/thecybernetica.github.io/cybenertica/index.html",
-    "main.da76849f.css.map": "/thecybernetica.github.io/cybenertica/static/css/main.da76849f.css.map",
-    "main.00e71e66.js.map": "/thecybernetica.github.io/cybenertica/static/js/main.00e71e66.js.map",
-    "453.b3eeb358.chunk.js.map": "/thecybernetica.github.io/cybenertica/static/js/453.b3eeb358.chunk.js.map"
+    "main.css": "/cybernetica/static/css/main.da76849f.css",
+    "main.js": "/cybernetica/static/js/main.658a061b.js",
+    "static/js/453.b3eeb358.chunk.js": "/cybernetica/static/js/453.b3eeb358.chunk.js",
+    "static/media/cybernetica_logo.png": "/cybernetica/static/media/cybernetica_logo.7c82a699eb49cf780d80.png",
+    "index.html": "/cybernetica/index.html",
+    "main.da76849f.css.map": "/cybernetica/static/css/main.da76849f.css.map",
+    "main.658a061b.js.map": "/cybernetica/static/js/main.658a061b.js.map",
+    "453.b3eeb358.chunk.js.map": "/cybernetica/static/js/453.b3eeb358.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da76849f.css",
-    "static/js/main.00e71e66.js"
+    "static/js/main.658a061b.js"
   ]
 }
