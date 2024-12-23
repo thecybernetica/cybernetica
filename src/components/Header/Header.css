@@ -5,6 +5,14 @@
     margin-bottom: 20px;
     padding: 20px 50px;
     justify-content: space-between;
+    position: relative;
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .logo {
@@ -31,4 +39,67 @@
 
 .highlighted {
     background-color: purple;
+}
+
+.drawer-toggle {
+    background: none;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    display: none;
+}
+
+.close-drawer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0;
+        background-color: brown;
+        transition: width 0.3s ease-in-out;
+        overflow-x: hidden;
+        z-index: 10;
+    }
+
+    .nav.open {
+        transform: translateY(0%);
+        height: 100%;
+        width: 80%;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .nav li {
+        margin: 5px 0;
+    }
+
+    .drawer-toggle {
+        display: block;
+    }
 }
