@@ -27,6 +27,7 @@ const Sports = () => {
           <p> {"=>"} Quinta-Feira</p>
           <p> {"=>"} às 14h até 17h</p>
           <p> {"=>"} CEUB Asa Norte Bloco 04</p>
+          <a href="./"><p> {"=>"} Grupo do Whatsapp</p></a>
         </div>
 
         <div>
@@ -34,6 +35,7 @@ const Sports = () => {
           <p> {"=>"} Terça-Feira</p>
           <p> {"=>"} às 14h até 17h</p>
           <p> {"=>"} CEUB Asa Norte Bloco 04</p>
+          <a href="./"><p> {"=>"} Grupo do Whatsapp</p></a>
         </div>
 
         <div>
@@ -41,6 +43,7 @@ const Sports = () => {
           <p> {"=>"} Sexta-Feira</p>
           <p> {"=>"} às 16h até 18h</p>
           <p> {"=>"} CEUB Asa Norte Bloco 04</p>
+          <a href="./"><p> {"=>"} Grupo do Whatsapp</p></a>
         </div>
 
         <div>
@@ -48,6 +51,7 @@ const Sports = () => {
           <p> {"=>"} Segunda-Feira</p>
           <p> {"=>"} às 16h até 17h</p>
           <p> {"=>"} CEUB Asa Norte Bloco 04</p>
+          <a href="./"><p> {"=>"} Grupo do Whatsapp</p></a>
         </div>
       </div>
 

@@ -73,6 +73,10 @@
   background-color: #252525;
 }
 
+a {
+  color: white;
+}
+
 @media (max-width: 800px) {
   .image-container {
     flex-direction: column;

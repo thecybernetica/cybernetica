@@ -37,6 +37,7 @@ const Footer = () => {
           <a href=".">Discord</a> <br />
           <a href=".">Grupo de Calouros</a> <br />
           <a href=".">Provas Passadas</a> <br />
+          <a href=".">Fotos</a> <br />
         </div>
       </div>
     </footer>
