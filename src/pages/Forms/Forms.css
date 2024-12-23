@@ -1,0 +1,78 @@
+.forms {
+  background-color: black;
+  color: white;
+
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  font-size: 1.5em;
+  padding: 10px;
+  background-color: #a662dd;
+  border-radius: 15px;
+  border: none;
+  flex: 1;
+  color: white;
+}
+
+::placeholder {
+  color: black;
+  opacity: 0.5;
+}
+
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #a662dd;
+  border: 2px solid #a662dd;
+  border-radius: 15px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  margin-right: 10px;
+}
+
+input[type="radio"]:checked {
+  background-color: white;
+  border-color: #a662dd;
+}
+
+input[type="radio"]:checked::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #a662dd;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
