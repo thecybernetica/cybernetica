@@ -64,9 +64,9 @@ function Header() {
           <li className={location.pathname === "/eventos" ? "highlighted" : ""}>
             <a href="/eventos">Eventos</a>
           </li>
-          <li className={location.pathname === "/bateria" ? "highlighted" : ""}>
+          {/* <li className={location.pathname === "/bateria" ? "highlighted" : ""}>
             <a href="/bateria">Bateria</a>
-          </li>
+          </li> */}
           <li className={location.pathname === "/loja" ? "highlighted" : ""}>
             <a href="/loja">Loja</a>
           </li>
