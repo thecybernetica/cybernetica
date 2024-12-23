@@ -1,0 +1,26 @@
+.toggleable-options {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+button {
+  background-color: #461E64;
+  color: white;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+button.active {
+  background-color: #a662dd;
+}
+
+button:hover {
+  background-color: #A221F3;
+}
