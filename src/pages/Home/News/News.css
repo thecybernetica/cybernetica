@@ -34,3 +34,17 @@
   color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  .news-list {
+    flex-direction: column;
+  }
+
+  .news-item {
+    margin-bottom: 10px;
+  }
+
+  .spacing {
+    margin-right: 0;
+  }
+}
