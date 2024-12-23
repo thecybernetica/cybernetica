@@ -1,0 +1,6 @@
+.store {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    background-color: black;
+}
