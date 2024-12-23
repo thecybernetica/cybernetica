@@ -2,10 +2,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 20px;
     padding: 20px 50px;
     justify-content: space-between;
     position: relative;
+    background-color: black;
 }
 
 .header-content {
