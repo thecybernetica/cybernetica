@@ -4,7 +4,14 @@
   color: white;
   display: flex;
   flex-direction: column;
-  padding: 20px 50px;
+  padding-left: 50px;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .title {
@@ -20,6 +27,7 @@
 }
 
 .image-container {
+  height: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -27,9 +35,10 @@
 }
 
 .image {
-  width: 100%;
-  height: auto;
+  flex: 1;
+  height: 100%;
   background-image: url("https://jpimg.com.br/uploads/2017/04/672494606-selecao-brasileira-de-volei-bateu-argentina-por-3-sets-0-para-faturar-o-titulo-do-sul-americano.jpg");
+  /* background-image: url("https://placehold.co/600x400"); */
   background-size: cover;
   background-position: center;
   border-image: fill 0 linear-gradient(to left, #0003, #000);
@@ -56,9 +65,10 @@
 .secondary-container div {
   margin: 20px;
   text-align: center;
+  flex: 1;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .image-container {
     flex-direction: column;
   }
