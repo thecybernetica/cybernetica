@@ -1,21 +1,15 @@
 .footer {
-  height: 50vh;
   display: flex;
 }
 
-
 .contact-section {
-
   flex: 1;
   padding: 20px;
-
   display: flex;
   flex-direction: row;
-
   text-align: center;
   align-items: center;
   justify-content: center;
-
 }
 
 .contact-info {
@@ -24,9 +18,27 @@
   padding: 0px 20px 20px 20px;
   border-radius: 10px;
   flex: 1;
-
   text-align: start;
   align-items: start;
   justify-content: start;
+}
 
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .contact-section {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .space-divider {
+    display: none;
+  }
 }
