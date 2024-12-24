@@ -3,15 +3,30 @@ import React, { useState } from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import ToggleableOptions from "../../components/ToggleableOptions/ToggleableOptions";
-
 import "./Forms.css";
 import "../../styles/AppStyle.css";
 
 const Forms = () => {
   const [formData, setFormData] = useState({
     name: "",
-    email: "",
-    message: "",
+    phone: "",
+    instagram: "",
+    academicEmail: "",
+    ra: "",
+    campus: "Asa Norte",
+    course: "Ciência da Computação",
+    semester: "Primeiro",
+    interestsAndAvailability: "",
+    previousExperience: "",
+    participationInActivities: "SIM",
+    eventOrganizationExperience: "",
+    itSkills: "",
+    desiredBoard: "E-Sports",
+    reasonForJoining: "",
+    openSpace: "",
+    changesToCybernetica: "",
+    aboutYourself: "",
+    understandingResponsibilities: "Estou Ciente",
   });
 
   const handleChange = (e) => {
@@ -22,10 +37,17 @@ const Forms = () => {
     });
   };
 
+  const handleOptionChange = (name, value) => {
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form Data Submitted:", formData);
-    // Add form submission logic here
+    // Add your form submission logic here (e.g., sending data to server)
   };
 
   return (
@@ -52,16 +74,16 @@ const Forms = () => {
                 id="phone"
                 name="phone"
                 placeholder="(61) 99999-9999"
-                value={formData.email}
+                value={formData.phone}
                 onChange={handleChange}
               />
               <div className="space-divider" />
               <input
                 type="text"
-                id="name"
-                name="name"
+                id="instagram"
+                name="instagram"
                 placeholder="@fulano.silva"
-                value={formData.name}
+                value={formData.instagram}
                 onChange={handleChange}
               />
             </div>
@@ -71,10 +93,10 @@ const Forms = () => {
             <div className="form-row">
               <input
                 type="email"
-                id="email"
-                name="email"
+                id="academicEmail"
+                name="academicEmail"
                 placeholder="email@sempreceub.com"
-                value={formData.email}
+                value={formData.academicEmail}
                 onChange={handleChange}
               />
               <div className="space-divider" />
@@ -83,7 +105,7 @@ const Forms = () => {
                 id="ra"
                 name="ra"
                 placeholder="xxxxxxxx"
-                value={formData.email}
+                value={formData.ra}
                 onChange={handleChange}
               />
             </div>
@@ -91,8 +113,8 @@ const Forms = () => {
           <label>Qual o seu campus?</label>
           <ToggleableOptions
             options={["Asa Norte", "Taguatinga"]}
-            currentValue="Asa Norte"
-            onChange={(option) => console.log(option)}
+            currentValue={formData.campus}
+            onChange={(value) => handleOptionChange("campus", value)}
           />
 
           <label>Qual o seu curso e semestre?</label>
@@ -103,8 +125,8 @@ const Forms = () => {
               "Ciência de Dados",
               "Cybersegurança",
             ]}
-            currentValue="Asa Norte"
-            onChange={(option) => console.log(option)}
+            currentValue={formData.course}
+            onChange={(value) => handleOptionChange("course", value)}
           />
           <ToggleableOptions
             options={[
@@ -117,67 +139,69 @@ const Forms = () => {
               "Sétimo",
               "Oitavo",
             ]}
-            currentValue="Primeiro Semestre"
-            onChange={(option) => console.log(option)}
+            currentValue={formData.semester}
+            onChange={(value) => handleOptionChange("semester", value)}
           />
 
           <h3>Experiências</h3>
           <div>
-            <label htmlFor="message">
+            <label htmlFor="interestsAndAvailability">
               Quais são seus interesses e a sua disponibilidade?
             </label>
             <textarea
-              id="message"
-              name="message"
-              value={formData.message}
+              id="interestsAndAvailability"
+              name="interestsAndAvailability"
+              value={formData.interestsAndAvailability}
               onChange={handleChange}
             />
           </div>
           <div>
-            <label htmlFor="message">
+            <label htmlFor="previousExperience">
               Você já participou de alguma atlética ou projeto semelhante?
             </label>
             <textarea
-              id="message"
-              name="message"
-              value={formData.message}
+              id="previousExperience"
+              name="previousExperience"
+              value={formData.previousExperience}
               onChange={handleChange}
             />
           </div>
           <div>
-            <label htmlFor="message">
+            <label htmlFor="participationInActivities">
               Está disposto(a) a participar de campanhas ou atividades de
               integração? Aqui todos nós ajudamos em todos os eventos, não
               importa a sua diretoria.
             </label>
             <ToggleableOptions
               options={["SIM", "NÃO"]}
-              currentValue="Primeiro Semestre"
-              onChange={(option) => console.log(option)}
+              currentValue={formData.participationInActivities}
+              onChange={(value) =>
+                handleOptionChange("participationInActivities", value)
+              }
             />
           </div>
           <div>
-            <label htmlFor="message">
+            <label htmlFor="eventOrganizationExperience">
               Tem experiência em organização de eventos ou competições? Se sim,
               discorra sobre.
             </label>
             <textarea
-              id="message"
-              name="message"
-              value={formData.message}
+              id="eventOrganizationExperience"
+              name="eventOrganizationExperience"
+              value={formData.eventOrganizationExperience}
               onChange={handleChange}
             />
           </div>
           <div>
-            <label htmlFor="message">
+            <label htmlFor="itSkills">
               Possui habilidades relacionadas a TI que possam contribuir com a
               atlética? (Ex.: design, desenvolvimento de sistemas, marketing
               digital)
             </label>
             <textarea
-              id="message"
-              name="message"
-              value={formData.message}
+              id="itSkills"
+              name="itSkills"
+              value={formData.itSkills}
               onChange={handleChange}
             />
           </div>
@@ -185,7 +209,7 @@ const Forms = () => {
           <h3>Motivação</h3>
 
           <div>
-            <label htmlFor="message">
+            <label htmlFor="desiredBoard">
               Em qual diretoria você gostaria de atuar e por quê?
             </label>
             <ToggleableOptions
@@ -197,56 +221,56 @@ const Forms = () => {
                 "Produtos",
                 "Financeiro",
               ]}
-              currentValue=""
-              onChange={(option) => console.log(option)}
+              currentValue={formData.desiredBoard}
+              onChange={(value) => handleOptionChange("desiredBoard", value)}
             />
           </div>
           <div>
-            <label htmlFor="message">
+            <label htmlFor="reasonForJoining">
               Por que você quer entrar na Cybernética?
             </label>
             <textarea
-              id="message"
-              name="message"
-              value={formData.message}
+              id="reasonForJoining"
+              name="reasonForJoining"
+              value={formData.reasonForJoining}
               onChange={handleChange}
             />
           </div>
 
           <h3>Entrevista</h3>
           <div>
-            <label htmlFor="message">Espaço Aberto</label>
+            <label htmlFor="openSpace">Espaço Aberto</label>
             <textarea
-              id="message"
-              name="message"
-              value={formData.message}
+              id="openSpace"
+              name="openSpace"
+              value={formData.openSpace}
               onChange={handleChange}
             />
           </div>
           <div>
-            <label htmlFor="message">
+            <label htmlFor="changesToCybernetica">
               O que você mudaria na cyber? Faça uma crítica, elogio, pode falar!
             </label>
             <textarea
-              id="message"
-              name="message"
-              value={formData.message}
+              id="changesToCybernetica"
+              name="changesToCybernetica"
+              value={formData.changesToCybernetica}
               onChange={handleChange}
             />
           </div>
           <div>
-            <label htmlFor="message">
+            <label htmlFor="aboutYourself">
               Fale um pouco sobre você! O que devemos saber? Conta um pouco!
             </label>
             <textarea
-              id="message"
-              name="message"
-              value={formData.message}
+              id="aboutYourself"
+              name="aboutYourself"
+              value={formData.aboutYourself}
               onChange={handleChange}
             />
           </div>
           <div>
-            <label htmlFor="message">
+            <label htmlFor="understandingResponsibilities">
               Você entende que, ao entrar na Cyber, você terá responsabilidades,
               mas também diversão e uma nova família? Aqui nós damos o nosso
               melhor, não somos uma atlética comum. Todos tem deveres e
@@ -254,8 +278,10 @@ const Forms = () => {
             </label>
             <ToggleableOptions
               options={["Estou Ciente", "Não concordo com isso"]}
-              currentValue=""
-              onChange={(option) => console.log(option)}
+              currentValue={formData.understandingResponsibilities}
+              onChange={(value) =>
+                handleOptionChange("understandingResponsibilities", value)
+              }
             />
           </div>
 
