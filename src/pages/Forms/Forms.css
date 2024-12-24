@@ -73,12 +73,9 @@ textarea {
     flex-direction: column;
   }
 
-  .space-divider {
-    margin-bottom: 10px;
-  }
-
   input,
   textarea {
     font-size: 1em;
+    margin-bottom: 10px;
   }
 }
