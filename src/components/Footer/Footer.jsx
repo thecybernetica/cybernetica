@@ -14,7 +14,7 @@ const Footer = () => {
           </p>
           <h4>CPNJ: 00.000-000/0000-00</h4>
 
-          <p className="button">Fale com o nosso Jurídico.</p>
+          <div className="button">Fale com o nosso Jurídico.</div>
         </div>
 
         <div className="space-divider" />

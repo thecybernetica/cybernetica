@@ -25,6 +25,14 @@
   color: black;
 }
 
+.contact-info {
+  p,
+  a,
+  h3 {
+    color: black;
+  }
+}
+
 @media (max-width: 600px) {
   .footer {
     flex-direction: column;
