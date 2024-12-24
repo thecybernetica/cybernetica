@@ -46,8 +46,18 @@ const Forms = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (
+      !formData.name ||
+      !formData.phone ||
+      !formData.academicEmail ||
+      !formData.ra
+    ) {
+      alert("Por favor, preencha todos os campos obrigatórios.");
+      return;
+    }
+
     console.log("Form Data Submitted:", formData);
-    // Add your form submission logic here (e.g., sending data to server)
   };
 
   return (
@@ -58,7 +68,10 @@ const Forms = () => {
           <h1>Faça parte da cybernética</h1>
           <h3>Informações Pessoais</h3>
           <div>
-            <label htmlFor="name">Qual seu nome, telefone e Instagram?</label>
+            <label htmlFor="name">
+              Qual seu nome, telefone e Instagram?{" "}
+              <span className="required">*</span>
+            </label>
             <div className="form-row">
               <input
                 type="text"
@@ -89,7 +102,10 @@ const Forms = () => {
             </div>
           </div>
           <div>
-            <label htmlFor="email">Qual o seu email academico e RA?</label>
+            <label htmlFor="email">
+              Qual o seu email academico e RA?{" "}
+              <span className="required">*</span>
+            </label>
             <div className="form-row">
               <input
                 type="email"
