@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cybernetica/static/css/main.fe1aff00.css",
-    "main.js": "/cybernetica/static/js/main.eeca4c7f.js",
+    "main.css": "/cybernetica/static/css/main.302c394f.css",
+    "main.js": "/cybernetica/static/js/main.ca4f43aa.js",
     "static/js/453.b3eeb358.chunk.js": "/cybernetica/static/js/453.b3eeb358.chunk.js",
     "static/media/cybernetica_logo.png": "/cybernetica/static/media/cybernetica_logo.7c82a699eb49cf780d80.png",
     "index.html": "/cybernetica/index.html",
-    "main.fe1aff00.css.map": "/cybernetica/static/css/main.fe1aff00.css.map",
-    "main.eeca4c7f.js.map": "/cybernetica/static/js/main.eeca4c7f.js.map",
+    "main.302c394f.css.map": "/cybernetica/static/css/main.302c394f.css.map",
+    "main.ca4f43aa.js.map": "/cybernetica/static/js/main.ca4f43aa.js.map",
     "453.b3eeb358.chunk.js.map": "/cybernetica/static/js/453.b3eeb358.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe1aff00.css",
-    "static/js/main.eeca4c7f.js"
+    "static/css/main.302c394f.css",
+    "static/js/main.ca4f43aa.js"
   ]
 }
