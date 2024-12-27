@@ -1,6 +1,7 @@
 .footer {
   display: flex;
   color: black;
+  background-color: white;
 }
 
 .contact-section {

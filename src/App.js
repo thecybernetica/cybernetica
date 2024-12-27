@@ -4,6 +4,7 @@ import {
   Route,
 } from "react-router-dom";
 import Home from "./pages/Home/Home";
+import Atletica from "./pages/Atletica/Atletica";
 import Store from './pages/Store/Store';
 // import About from './pages/About/About';
 import Forms from './pages/Forms/Forms';
@@ -16,6 +17,7 @@ const AppRouter = () => (
       <Route path="/loja" element={<Store />} />
       <Route path="/esportes" element={<Sports />} />
       <Route path="/formulario" element={<Forms />} />
+      <Route path="/atletica" element={<Atletica />} />
       {/* <Route path="/atletica" element={<About />} /> */}
     </Routes>
   </HashRouter>
