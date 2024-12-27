@@ -3,6 +3,8 @@ import React from "react";
 import "./News.css";
 import "../../../styles/AppStyle.css";
 
+import news1 from "../../../assets/news/news_1.jpg"
+
 const NewsSection = () => {
   return (
     <div className="news">
@@ -10,21 +12,17 @@ const NewsSection = () => {
 
       <div className="news-list">
         <img
-          src="https://placehold.co/200"
+          src={news1}
           alt="News 1"
           className="news-item"
         />
-        <div className="spacing" />{" "}
-        {/* there is probably a better way to do this spacing */}
         <img
-          src="https://placehold.co/200"
+          src={news1}
           alt="News 2"
           className="news-item"
         />
-        <div className="spacing" />{" "}
-        {/* there is probably a better way to do this spacing */}
         <img
-          src="https://placehold.co/200"
+          src={news1}
           alt="News 3"
           className="news-item"
         />
