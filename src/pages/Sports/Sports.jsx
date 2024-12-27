@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
+import ImageCard from "../../components/ImageCard/ImageCard";
 import "./Sports.css";
-import "../Home/Atletica/Atletica.css";
 import "../../styles/AppStyle.css";
 
 const Sports = () => {
@@ -56,38 +56,10 @@ const Sports = () => {
       </div>
 
       <div className="card-row image-row">
-        <div className="card">
-          <img
-            src="https://placehold.co/200"
-            alt="Presidente"
-            className="card-image"
-          />
-          <h3 className="card-title">Diretor de Esportes</h3>
-        </div>
-        <div className="card">
-          <img
-            src="https://placehold.co/200"
-            alt="Coordenador de Vôlei"
-            className="card-image"
-          />
-          <h3 className="card-title">Coordenador de Vôlei</h3>
-        </div>
-        <div className="card">
-          <img
-            src="https://placehold.co/200"
-            alt="Coordenador de Basquete"
-            className="card-image"
-          />
-          <h3 className="card-title">Coordenador de Basquete</h3>
-        </div>
-        <div className="card">
-          <img
-            src="https://placehold.co/200"
-            alt="Coordenador de Futsal"
-            className="card-image"
-          />
-          <h3 className="card-title">Coordenador de Futsal</h3>
-        </div>
+        <ImageCard imageSrc="https://placehold.co/200" title="Diretor de Esportes" />
+        <ImageCard imageSrc="https://placehold.co/200" title="Coordenador de Vôlei" />
+        <ImageCard imageSrc="https://placehold.co/200" title="Coordenador de Basquete" />
+        <ImageCard imageSrc="https://placehold.co/200" title="Coordenador de Futsal" />
       </div>
 
       <Footer />

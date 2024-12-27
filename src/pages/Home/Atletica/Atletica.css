@@ -1,45 +1,12 @@
 .atletica {
   min-height: 100vh;
   background-color: #252525;
+  padding-top: 25px;
   padding-left: 50px;
   padding-right: 50px;
   color: white;
   display: flex;
   flex-direction: column;
-}
-
-.image-row {
-  display: flex;
-  margin-bottom: 20px;
-  position: relative;
-}
-
-.card {
-  height: auto;
-  width: 100%;
-  flex: 1;
-  margin-right: 10px;
-  position: relative;
-}
-
-.card-image {
-  height: auto;
-  width: 100%;
-  border-radius: 10px;
-}
-
-.card-title {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px;
-  /* background-color: rgba(0, 0, 0, 0.5); */
-  color: white;
-  font-size: 0.8em;
-  word-wrap: break-word;
-  overflow: hidden;
-  text-align: center;
 }
 
 .see-more {
@@ -54,18 +21,3 @@
   cursor: pointer;
 }
 
-@media (max-width: 800px) {
-  .card-title {
-    font-size: 1em;
-    padding: 5px;
-  }
-
-  .image-row {
-    flex-direction: column;
-  }
-
-  .card {
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-}
