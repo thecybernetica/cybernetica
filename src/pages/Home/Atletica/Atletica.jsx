@@ -3,6 +3,7 @@ import React from "react";
 import ImageCard from "../../../components/ImageCard/ImageCard";
 
 import "./Atletica.css";
+import "../../../styles/AppStyle.css"
 
 const Atletica = () => {
   return (

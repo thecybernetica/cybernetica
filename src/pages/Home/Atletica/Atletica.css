@@ -8,16 +8,3 @@
   display: flex;
   flex-direction: column;
 }
-
-.see-more {
-  margin-top: 20px;
-  margin-bottom: 40px;
-  text-align: center;
-  color: white;
-}
-
-.see-more:hover {
-  color: rgba(255, 255, 255, 0.5);
-  cursor: pointer;
-}
-

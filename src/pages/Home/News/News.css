@@ -1,6 +1,6 @@
 .news {
   /* min-height: 80vh; */
-  background-color: #461E64;
+  background-color: #461e64;
   padding-top: 50px;
   padding-left: 50px;
   padding-right: 50px;
@@ -24,17 +24,6 @@
 
 .spacing {
   margin-right: 20px;
-}
-
-.see-more {
-  margin-top: 20px;
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-.see-more:hover {
-  color: rgba(255, 255, 255, 0.5);
-  cursor: pointer;
 }
 
 @media (max-width: 800px) {
