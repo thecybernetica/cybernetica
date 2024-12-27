@@ -49,9 +49,9 @@ function Header() {
         </button>
       </div>
       <nav className={`nav ${isDrawerOpen ? "open" : ""}`} ref={drawerRef}>
-        <button className="close-drawer" onClick={closeDrawer}>
+        {(isDrawerOpen && <button className="close-drawer" onClick={closeDrawer}>
           <CloseIcon />
-        </button>
+        </button>)}
         <ul>
           <li className={location.pathname === "/esports" ? "highlighted" : ""}>
             <a href="/esports">E-Sports</a>

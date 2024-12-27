@@ -50,16 +50,6 @@
     display: none;
 }
 
-.close-drawer {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: none;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-}
-
 @media (max-width: 800px) {
     .header {
         flex-direction: column;
@@ -76,7 +66,7 @@
         left: 0;
         height: 100%;
         width: 0;
-        background-color: brown;
+        background-color: #461E64;
         transition: width 0.3s ease-in-out;
         overflow-x: hidden;
         z-index: 10;
@@ -100,5 +90,16 @@
 
     .drawer-toggle {
         display: block;
+    }
+
+    .close-drawer {
+        visibility: visible;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: none;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
     }
 }
