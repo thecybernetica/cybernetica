@@ -4,7 +4,7 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import ImageCard from "../../components/ImageCard/ImageCard";
 
-import "./Atletica.css";
+import "./About.css";
 import "../Home/Atletica/Atletica.css";
 
 const Atletica = () => {
