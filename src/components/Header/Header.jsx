@@ -53,17 +53,17 @@ function Header() {
           <CloseIcon />
         </button>)}
         <ul>
-          <li className={location.pathname === "/esports" ? "highlighted" : ""}>
+          {/* <li className={location.pathname === "/esports" ? "highlighted" : ""}>
             <a href="/esports">E-Sports</a>
-          </li>
+          </li> */}
           <li
             className={location.pathname === "/esportes" ? "highlighted" : ""}
           >
             <a href="/esportes">Esportes</a>
           </li>
-          <li className={location.pathname === "/eventos" ? "highlighted" : ""}>
+          {/* <li className={location.pathname === "/eventos" ? "highlighted" : ""}>
             <a href="/eventos">Eventos</a>
-          </li>
+          </li> */}
           {/* <li className={location.pathname === "/bateria" ? "highlighted" : ""}>
             <a href="/bateria">Bateria</a>
           </li> */}
